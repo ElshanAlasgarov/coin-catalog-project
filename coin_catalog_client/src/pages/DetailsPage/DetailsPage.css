@@ -1,0 +1,39 @@
+.details {
+    justify-content: center;
+  height: 90vh;
+  display: flex;
+  .left {
+    .img-1 {
+      padding: 5%;
+      width: 100%;
+      height: 50%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .img-2 {
+      padding: 5%;
+      width: 100%;
+      height: 50%;
+    }
+  }
+  .right {
+    padding: 4%;
+    background-color: #e1e1e1;
+    width: 50%; 
+    
+    table {
+        width: 60%;
+        padding: 5%;
+        margin: 0 auto;
+      tr:nth-child(2n+1) {
+        background-color: white;
+      }
+    }
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

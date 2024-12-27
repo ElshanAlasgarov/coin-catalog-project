@@ -1,0 +1,10 @@
+.search-list-page{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+    padding-bottom: 2%;
+  }

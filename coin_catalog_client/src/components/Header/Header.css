@@ -1,0 +1,24 @@
+.header {
+  
+  .search-form {
+    
+    width: 50%;
+    #search-input {
+      border: 2px solid;
+      padding: 2%;
+      width: 70%;
+    }
+    .search-button {
+      margin-left: 3%;
+      border: none;
+      padding: 2%;
+      width: 27%;
+      cursor: pointer;
+      background-color: #833ae0;
+      color: white;
+    }
+  }  
+}
+label {
+  font-weight: 500;
+}

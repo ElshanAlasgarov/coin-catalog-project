@@ -1,0 +1,50 @@
+.filter-search {
+  button{
+    margin-left: 3%;
+    border: none;
+    padding: 2%;
+    width: 8%;
+    cursor: pointer;
+    background-color: #833ae0;
+    color: white;
+  }
+  .advanced-filter-zone {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    .left {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+    select {
+      width: 69%;
+      padding: 2%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+      border: 2px solid;
+    }
+    .right {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .from-to {
+        label{
+          font-weight: 400;
+        }
+        padding-top: 5%;
+        height: 100%;
+        gap: 6%;
+        display: flex;
+        #to,
+        #from {
+          height: 100%;
+          border: 2px solid;
+        }
+      }
+    }
+  }
+}

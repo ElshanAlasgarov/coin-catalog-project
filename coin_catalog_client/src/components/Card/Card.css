@@ -1,0 +1,14 @@
+.card{
+    width: 214px;
+    h3{
+      width: 100%;
+      margin-bottom: 2.5%;
+    }
+    .image{
+      height: 214px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
