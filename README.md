@@ -26,10 +26,6 @@ A web application for browsing, searching, and managing a catalog of precious co
 - Image upload supported (Ant Design).
 - Displays browsing statistics.
 
-### Additional Features
-- Shopping cart for coin purchases.
-- Tracks and displays coin view statistics.
-
 ## Technical Requirements
 - **Frontend**: React SPA.
 - **Backend**: Node.js with MySQL.
@@ -49,7 +45,7 @@ A web application for browsing, searching, and managing a catalog of precious co
    - Configure `.env` for credentials.
 4. Frontend setup:
    ```bash
-   cd coin_catalog_server
+   cd coin_catalog_client
    npm install
    npm start
    ```
